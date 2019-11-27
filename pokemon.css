@@ -1,0 +1,158 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/pokeimage/poke-grassfield.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+.pokemons {
+    text-align: center;
+    size: 0px;
+    padding: 100px 100px;
+}
+.charmander {
+    background-image: url('/pokeimage/charmander.jpeg');
+    
+}
+.squirtle{
+  
+    background-image: url('/pokeimage/squirtle.jpeg');
+}
+.bulbasaur {
+    background-image: url('/pokeimage/bulbasaur.jpeg');
+}
+
+.charmander, .squirtle, .bulbasaur {
+    background-size: contain;
+    background-repeat: repeat;
+    padding: 9% 5%;
+    cursor: pointer;
+    margin: 0%;
+    /*width: 33.33%;*/
+}
+
+.pokemon {
+  display: none;
+}
+
+.charmander{
+  width: 5%;
+  
+}
+.squirtle {
+  width: 9%;
+}
+.bulbasaur {
+  width: 0%;
+  
+}
+
+
+.header {
+      text-align: center;
+      font-size: 50px;
+}
+
+.background {
+    width: 60%;
+    
+}
+
+.rules {
+      text-align: center;
+      font-size: 50px;
+}
+
+.winner {
+      text-align: center;
+      font-size: 100px;
+      -webkit-text-fill-color: rgb(38, 0, 253);
+      -webkit-text-stroke: rgb(251, 163, 0);
+      -webkit-text-stroke-width: 2px;
+}
+
+.red {
+    float: left;
+    width: 10%;
+    margin-left: 22%;
+  }
+  
+  .blue {
+    float: right;
+    width: 8%;
+    margin-right: 22%;
+  }
+
+  .quote {
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 2%;
+    /*text-decoration: underline;*/
+    font-family: 'Dancing Script', cursive;
+  }
+
+  span {
+    color: red;
+    text-decoration: underline;
+  }
+
+  /*List of pokemon*/
+  .char, .squirt, .bulb {
+    width: 4%;
+  }
+
+  /*li p{
+    font-size: 40px;
+    margin-left: 1%;
+    position: inherit;
+  }*/
+
+  button {
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .rules {
+    text-align: center;
+    margin-top: 5%
+  }
+
+  .rules h2 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  h1 {
+    top: 0%;
+    background-image: url('/pokeimage/poke-background.jpg');
+    background-size: cover;
+    background-position: 0% 35.0%;
+    background-repeat: no-repeat;
+    border: solid rgb(205, 91, 91) 10px;
+    color: blueviolet;
+    text-align: center;
+    font-size: 200px;
+    -webkit-text-fill-color: gold;
+    -webkit-text-stroke-color: blue;
+    -webkit-text-stroke-width: 5px;
+  }
+
+  .pokemons {
+    content: "";
+    clear: both;
+    text-align: center;
+    margin: auto;
+    margin-top: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+  }
